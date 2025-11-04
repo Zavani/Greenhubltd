@@ -51,7 +51,7 @@ const Navbar = () => {
               Contact
             </button>
             <a href="tel:+447378399319">
-              <Button className="rounded-3xl">Request Quote</Button>
+              <Button className="rounded-3xl">Call Us</Button>
             </a>
           </div>
 
@@ -92,7 +92,7 @@ const Navbar = () => {
               Contact
             </button>
             <a href="tel:+447378399319" className="w-full">
-              <Button className="rounded-3xl w-full">Request Quote</Button>
+              <Button className="rounded-3xl w-full">Call Us</Button>
             </a>
           </div>
         )}
