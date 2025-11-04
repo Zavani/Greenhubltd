@@ -8,7 +8,7 @@ import solarImage from "@/assets/solar.jpg";
 const services = [
   {
     title: "Residential Cleaning",
-    description: "Professional cleaning for homes and apartments.",
+    description: "Professional cleaning services for houses and apartments.",
     image: officeDeskImage,
     icon: Sparkles,
   },

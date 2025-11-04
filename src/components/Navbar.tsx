@@ -50,7 +50,9 @@ const Navbar = () => {
             >
               Contact
             </button>
-            <Button className="rounded-3xl">Request Quote</Button>
+            <a href="tel:+447378399319">
+              <Button className="rounded-3xl">Request Quote</Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -89,7 +91,9 @@ const Navbar = () => {
             >
               Contact
             </button>
-            <Button className="rounded-3xl w-full">Request Quote</Button>
+            <a href="tel:+447378399319" className="w-full">
+              <Button className="rounded-3xl w-full">Request Quote</Button>
+            </a>
           </div>
         )}
       </div>

@@ -9,7 +9,7 @@ const benefits = [
   {
     icon: Award,
     title: "Proven Experience",
-    description: "1+ years of experience in corporate cleaning.",
+    description: "3+ years of experience in corporate cleaning.",
   },
   {
     icon: Leaf,
@@ -71,11 +71,11 @@ const WhyChooseUs = () => {
               <div className="text-muted-foreground">Active Clients</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">1+</div>
+              <div className="text-4xl font-bold text-primary mb-2">3+</div>
               <div className="text-muted-foreground">Years Experience</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">99%</div>
+              <div className="text-4xl font-bold text-primary mb-2">100%</div>
               <div className="text-muted-foreground">Satisfaction</div>
             </div>
           </div>

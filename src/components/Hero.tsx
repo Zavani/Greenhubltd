@@ -28,10 +28,12 @@ const Hero = () => {
             Professional office cleaning services. Dedicated team, eco-friendly products, and guaranteed results.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="rounded-3xl text-lg px-8 py-6 group">
-              Get Free Quote
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            <a href="tel:+447378399319">
+              <Button size="lg" className="rounded-3xl text-lg px-8 py-6 group">
+                Get Free Quote
+                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </a>
             <Button
               size="lg"
               variant="outline"
