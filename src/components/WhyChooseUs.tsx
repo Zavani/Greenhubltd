@@ -67,7 +67,7 @@ const WhyChooseUs = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-8 mt-8">
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">5+</div>
+              <div className="text-4xl font-bold text-primary mb-2">100+</div>
               <div className="text-muted-foreground">Active Clients</div>
             </div>
             <div>
