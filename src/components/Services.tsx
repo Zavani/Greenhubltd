@@ -4,6 +4,7 @@ import windowImage from "@/assets/window-cleaning.jpg";
 import floorImage from "@/assets/floor-cleaning.jpg";
 import sanitizationImage from "@/assets/sanitization.jpg";
 import solarImage from "@/assets/solar.jpg";
+import wasteremovalImage from "@/assets/WasteRemoval.jpeg";
 
 const services = [
   {
@@ -25,9 +26,9 @@ const services = [
     icon: Sparkles,
   },
 {
-    title: "Solar Cleaning",
-    description: "Solar panels professional cleaning",
-    image: solarImage,
+    title: "Waste Removal",
+    description: "Professional waste management services.",
+    image: wasteremovalImage,
     icon: Sparkles,
   },
 ];

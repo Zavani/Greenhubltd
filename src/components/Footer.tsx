@@ -1,6 +1,7 @@
-import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin, Sparkles } from "lucide-react";
+import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import LogoImg from "@/assets/Logogh.png";
 
 const Footer = () => {
   return (
@@ -10,9 +11,8 @@ const Footer = () => {
           {/* Company Info */}
           <div className="animate-fade-in">
             <div className="flex items-center gap-2 mb-4">
-              <Sparkles className="w-8 h-8 text-primary" />
+              <img src={LogoImg} alt="Green Hub Logo" className="w-15 h-15 object-contain" />
               <span className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Green Hub 
               </span>
             </div>
             <p className="text-muted-foreground mb-4">
@@ -20,23 +20,14 @@ const Footer = () => {
             </p>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61589320253270"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center hover:bg-primary/30 transition-colors"
               >
                 <Facebook className="w-5 h-5 text-primary" />
               </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center hover:bg-primary/30 transition-colors"
-              >
-                <Instagram className="w-5 h-5 text-primary" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center hover:bg-primary/30 transition-colors"
-              >
-                <Linkedin className="w-5 h-5 text-primary" />
-              </a>
+              
             </div>
           </div>
 
@@ -74,23 +65,17 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                   <div>
-                    <div className="text-foreground">+44 7378 399319 </div>
-                    <div className="text-foreground">0800 274 0075</div>
+                    <div className="text-foreground">0800 274 0075 <span className="text-sm text-muted-foreground"></span></div>
                     <div className="text-sm text-muted-foreground">Mon - Fri: 8:00 AM - 6:00 PM</div>
                   </div>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                <a href="mailto:contact@cleanpro.com" className="text-foreground hover:text-primary transition-colors">
-                  info@greenhubltd.uk
+                <a href="mailto:contact@greenhubltd.uk" className="text-foreground hover:text-primary transition-colors">
+                  contact@greenhubltd.uk
                 </a>
               </li>
-              <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                <div className="text-foreground">
-                  30 Penrhyn Gardens, Penrhyn Road, Kingston Upon Thames<br />
-                  KT1 2EG, UNITED KINGDOM
-                </div>
+              <li className="flex items-start gap-3">               
               </li>
             </ul>
           </div>
@@ -114,7 +99,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-border/50 pt-8 text-center text-muted-foreground">
-          <p>© 2025 Green Hub Office. All rights reserved.</p>
+          <p>© 2025 Green Hub Ltd. All rights reserved.</p>
         </div>
       </div>
     </footer>
